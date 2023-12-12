@@ -10,12 +10,11 @@ This script is designed to fetch and analyze movie reviews from the New York Tim
 - **Cleaning and Exporting Data**: Cleans the merged dataset and exports it to a CSV file.
 
 ## Prerequisites
-To use this script, you need Python with the following libraries installed:
 - `requests`
 - `pandas`
 - `python-dotenv`
 
-Also, ensure you have a `.env` file with your NYT and TMDB API keys set as `NYT_API_KEY` and `TMDB_API_KEY` respectively.
+You will also need a `.env` file with your NYT and TMDB API keys.
 
 ## Usage
 Run the script in a Python environment. The script will:
